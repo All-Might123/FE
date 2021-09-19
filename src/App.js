@@ -1,6 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
 import Index from './index/index';
+import HomePage from './page/HomePage';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Login from './component/login';
 function App() {
@@ -8,11 +8,14 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route path="/login">
+          <Route path="/" exact>
             <Login />
           </Route>
-          <Route path="/">
+          <Route path="/company" exact>
             <Index />
+          </Route>
+          <Route path="/home" exact>
+            <HomePage />
           </Route>
         </Switch>
       </Router>

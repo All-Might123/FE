@@ -14,6 +14,7 @@ import AccountCircle from '@material-ui/icons/AccountCircle';
 import MailIcon from '@material-ui/icons/Mail';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
+import { Avatar } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
   grow: {
@@ -206,7 +207,7 @@ export default function Header() {
               onClick={handleProfileMenuOpen}
               color="inherit"
             >
-              <AccountCircle />
+              <Avatar src="https://lh3.google.com/u/0/ogw/ADea4I4ZVT6x_rAjZFvVwh0nJHnO1A9_zicjXsI9Qzti=s83-c-mo" />
             </IconButton>
           </div>
           <div className={classes.sectionMobile}>

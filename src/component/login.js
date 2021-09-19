@@ -13,6 +13,7 @@ import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { GoogleLogin } from 'react-google-login';
 import './style/login.scss';
+import { useHistory } from 'react-router-dom';
 function Copyright(props) {
   return (
     <Typography
@@ -34,6 +35,7 @@ function Copyright(props) {
 const theme = createTheme();
 
 export default function SignInSide() {
+  const history = useHistory();
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
@@ -44,7 +46,7 @@ export default function SignInSide() {
     });
   };
   const responseGoogle = async (response) => {
-    console.log(response);
+    history.push('/home');
   };
 
   return (
