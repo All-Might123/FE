@@ -1,0 +1,9 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+}
+.btn-add{
+    float:right;
+}
+.home-content{
+    margin-top: 1rem;
+}
