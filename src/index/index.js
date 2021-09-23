@@ -226,6 +226,70 @@ function HomePage(props) {
             <div>5/15</div>
           </div>
         </div>
+        <div className="progress_team">
+          <div className="progress_title">
+            <div className="progress_name">Build virtual classroom website</div>
+            <a href="https://flatuicolors.com/palette/gb">
+              <i className="fas fa-chevron-circle-right" />
+            </a>
+          </div>
+          <div className="progress_row">
+            <div>Leader</div>
+            <div>Le son nam</div>
+          </div>
+          <div className="progress_row">
+            <div>Score</div>
+            <div>123/1200</div>
+          </div>
+          <div className="progress_row">
+            <div>Member</div>
+            <div>11</div>
+          </div>
+          <div className="progress_row">
+            <div>Task complete</div>
+            <div>6/15</div>
+          </div>
+          <div className="progress_row">
+            <div>Task unfinished</div>
+            <div>4/15</div>
+          </div>
+          <div className="progress_row">
+            <div>Task late</div>
+            <div>5/15</div>
+          </div>
+        </div>
+        <div className="progress_team">
+          <div className="progress_title">
+            <div className="progress_name">Wordpress </div>
+            <a href="https://flatuicolors.com/palette/gb">
+              <i className="fas fa-chevron-circle-right" />
+            </a>
+          </div>
+          <div className="progress_row">
+            <div>Leader</div>
+            <div>Le son nam</div>
+          </div>
+          <div className="progress_row">
+            <div>Score</div>
+            <div>2200/3200</div>
+          </div>
+          <div className="progress_row">
+            <div>Member</div>
+            <div>5</div>
+          </div>
+          <div className="progress_row">
+            <div>Task complete</div>
+            <div>3/15</div>
+          </div>
+          <div className="progress_row">
+            <div>Task unfinished</div>
+            <div>1/15</div>
+          </div>
+          <div className="progress_row">
+            <div>Task late</div>
+            <div>0/15</div>
+          </div>
+        </div>
       </div>
       <div className="pet_ui_container">
         <img

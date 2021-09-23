@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import logo from './logo.svg';
 import './App.css';
 import Index from './index/index';
@@ -17,16 +16,6 @@ function App() {
           </Route>
         </Switch>
       </Router>
-=======
-import HomePage from './page/HomePage';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './style/home.css';
-function App() {
-  return (
-    <div className="App">
-      <HomePage/>
-
->>>>>>> 62bd1b2 (app)
     </div>
   );
 }

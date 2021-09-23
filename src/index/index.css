@@ -7,7 +7,7 @@
 }
 .index_container {
   height: 100vh;
-  background-image: url("https://wallpaperaccess.com/full/2713227.jpg");
+  background-image: url('https://wallpaperaccess.com/full/2713227.jpg');
   background-size: cover;
   background-position: bottom;
   display: flex;
@@ -126,6 +126,7 @@
   background-color: rgb(92, 189, 132);
   padding: 15px 10px;
   border-bottom: 1px solid grey;
+  margin-bottom: 20px;
 }
 .progress_title {
   display: flex;
